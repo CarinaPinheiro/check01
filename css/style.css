@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+  }
+
+  .card-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-content: center;
+    }
+  
+    .card {
+      width: 374px;
+      height: 597px;
+      background: grey;
+      margin-top: 10vw;
+      justify-content: center;
+    }
+    .texto-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 300px;
+        align-items: center;
+        margin: 20px auto;
+      }  
+
+ footer{
+        height: 100%vw;
+        background: #00669f;
+       
+      }
