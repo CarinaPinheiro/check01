@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,10 +13,11 @@
 }
 
 .cabecalho {
-    background-color: #ED1B2E;
-    padding: 30px;
+    background-color: #ece087;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
+    font-family: 'Poppins';
 }
 
 .List-menu{
@@ -22,30 +26,91 @@
 }
 .List-menu li {
     margin: 0 30px;
-    color: white;
+    color: rgb(10, 10, 10);
     text-transform: uppercase;
     font-weight: bold;
 }
+.img-cidade{
+    width: 100%;
+    height: 532px;   
+}
+main h2 {
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 104px;
+    color: #000000;
 
-.card{
+}
+iframe{
+    width:100%;
+    height: 600px;
+    padding: 95px;
+
+}
+
+
+.card-container {
     display: flex;
     flex-wrap: wrap;
     padding-top: 30px ;
     margin: 15px 15px 15px 30px;
     justify-content: space-around;
-    background-color: rgb(224, 212, 212);
-}
-.texto-card{
-    text-align: center;
-}
-iframe{
-    width:100%;
-    height: 100%;
-    padding: 95px;
+    background-color: rgb(234, 231, 231);
 
 }
+
+.texto-card {
+
+    width: 280px;
+    height: 450px;
+    background: #dbd07a;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    margin: 10px;
+    align-items: center;
+}
+
+.texto-card p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    font-style: normal;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
 footer{
-    background-color: #ED1B2E;
+
+    background-color: #ece087;
     text-align: center;
     padding: 95px;
+}
+.rodape {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.linkedin {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    
+}
+
+.github {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+
+.img-linkedin{
+    width: 30px;
+    height: 30px;
+}
+.img-git{
+    width: 30px;
+    height: 30px;
 }
