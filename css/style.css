@@ -11,7 +11,11 @@
     width: 55px;
     height: 55px;
 }
-
+.banner{
+    font-family: 'Poppins';
+    text-align: center;
+    color: #000000;
+}
 .cabecalho {
     background-color: #ece087;
     padding: 20px;
